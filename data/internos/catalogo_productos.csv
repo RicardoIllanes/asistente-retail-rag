@@ -1,0 +1,9 @@
+sku,nombre,categoria,marca,precio_clp,stock,garantia_fabricante_meses,descripcion
+TH-TV55,Smart TV 55 pulgadas 4K UHD,Televisores,Visiona,379990,14,12,"Televisor LED 4K con sistema Google TV, 3 puertos HDMI y control por voz."
+TH-TV65,Smart TV 65 pulgadas QLED,Televisores,Visiona,649990,5,24,"Televisor QLED 4K de 65 pulgadas, 120 Hz, ideal para gaming."
+TH-RF340,Refrigerador No Frost 340 litros,Linea blanca,Frialux,459990,8,12,"Refrigerador No Frost de dos puertas, eficiencia energética A+, dispensador de agua."
+TH-LV12,Lavadora carga frontal 12 kg,Linea blanca,Lavamax,429990,0,24,"Lavadora inverter de 12 kg con 14 programas y función vapor."
+TH-NB14,Notebook 14 pulgadas Ryzen 5 16GB,Computacion,Nexa,549990,20,12,"Notebook liviano con 16 GB de RAM, SSD de 512 GB y Windows 11."
+TH-AUD1,Audífonos inalámbricos con cancelación de ruido,Audio,Sonora,89990,35,6,"Audífonos Bluetooth over-ear con 30 horas de batería."
+TH-AC12,Aire acondicionado split 12000 BTU inverter,Climatizacion,Frialux,399990,6,12,"Equipo split frío/calor inverter. La instalación se cobra aparte."
+TH-MW25,Microondas 25 litros digital,Electrodomesticos,Cocinex,79990,40,12,"Microondas con grill, 10 niveles de potencia y bloqueo infantil."

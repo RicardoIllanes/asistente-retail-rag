@@ -1,0 +1,246 @@
+{
+  "provider": "gemini",
+  "k": 4,
+  "umbral": 0.55,
+  "n_preguntas": 18,
+  "hit_rate": 1.0,
+  "context_precision": 0.681,
+  "context_recall": 1.0,
+  "mrr": 1.0,
+  "detalle": [
+    {
+      "id": "Q01",
+      "pregunta": "¿Cuántos meses de garantía legal tiene un producto nuevo?",
+      "recuperadas": [
+        "politica_garantias.md§1. Garantía legal (6 meses) (0.785)",
+        "politica_garantias.md§2. Garantía voluntaria del fabricante (0.717)",
+        "politica_garantias.md§3. Garantía extendida TecnoHogar Plus (0.674)",
+        "politica_garantias.md§4. Procedimiento de postventa (0.669)"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "hit": true
+    },
+    {
+      "id": "Q02",
+      "pregunta": "Mi lavadora falló, ¿puedo pedir la devolución del dinero en vez de la reparación?",
+      "recuperadas": [
+        "ley_19496_extracto.md§Garantía legal (artículos 20 y 21) (0.718)",
+        "sernac_guia_compras_online.md§Regla del 6x3 (0.709)",
+        "ley_19496_extracto.md§Derecho a retracto en compras a distancia (artículo 3 bis) (0.664)",
+        "sernac_guia_compras_online.md§Plazos de despacho (0.648)"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "hit": true
+    },
+    {
+      "id": "Q03",
+      "pregunta": "¿Cuántos días tengo para devolver una compra online por arrepentimiento?",
+      "recuperadas": [
+        "politica_garantias.md§5. Devolución por arrepentimiento (compras online) (0.794)",
+        "politica_despachos.md§6. Retrasos (0.676)",
+        "politica_garantias.md§1. Garantía legal (6 meses) (0.664)",
+        "politica_garantias.md§4. Procedimiento de postventa (0.655)"
+      ],
+      "precision": 0.75,
+      "recall": 1.0,
+      "hit": true
+    },
+    {
+      "id": "Q04",
+      "pregunta": "¿Qué dice la ley sobre el derecho a retracto en compras por internet?",
+      "recuperadas": [
+        "ley_19496_extracto.md§Derecho a retracto en compras a distancia (artículo 3 bis) (0.79)",
+        "sernac_guia_compras_online.md§Plazos de despacho (0.684)",
+        "sernac_guia_compras_online.md§Regla del 6x3 (0.684)",
+        "ley_19496_extracto.md§Garantía legal (artículos 20 y 21) (0.661)"
+      ],
+      "precision": 0.5,
+      "recall": 1.0,
+      "hit": true
+    },
+    {
+      "id": "Q05",
+      "pregunta": "¿Cuánto demora el despacho a Magallanes?",
+      "recuperadas": [
+        "politica_despachos.md§2. Plazos estimados (días hábiles desde la confirmación del pago) (0.744)",
+        "politica_despachos.md§3. Costos (0.688)",
+        "politica_despachos.md§1. Cobertura (0.683)",
+        "politica_despachos.md§6. Retrasos (0.682)"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "hit": true
+    },
+    {
+      "id": "Q06",
+      "pregunta": "¿El despacho es gratis en la Región Metropolitana?",
+      "recuperadas": [
+        "politica_despachos.md§3. Costos (0.804)",
+        "politica_despachos.md§2. Plazos estimados (días hábiles desde la confirmación del pago) (0.732)",
+        "politica_despachos.md§1. Cobertura (0.718)",
+        "preguntas_frecuentes.md§Instalación (0.7)"
+      ],
+      "precision": 0.75,
+      "recall": 1.0,
+      "hit": true
+    },
+    {
+      "id": "Q07",
+      "pregunta": "¿Qué pasa si mi pedido se retrasa más del plazo informado?",
+      "recuperadas": [
+        "politica_despachos.md§6. Retrasos (0.77)",
+        "politica_despachos.md§5. Incidencias (0.677)",
+        "politica_despachos.md§2. Plazos estimados (días hábiles desde la confirmación del pago) (0.66)",
+        "politica_despachos.md§4. Estados de un pedido (0.651)"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "hit": true
+    },
+    {
+      "id": "Q08",
+      "pregunta": "El proveedor no cumplió el plazo de entrega, ¿qué derechos tengo según SERNAC?",
+      "recuperadas": [
+        "sernac_guia_compras_online.md§Plazos de despacho (0.804)",
+        "sernac_guia_compras_online.md§Productos dañados en el traslado (0.736)",
+        "ley_19496_extracto.md§Cumplimiento de lo ofrecido (artículo 12) (0.727)",
+        "sernac_guia_compras_online.md§Regla del 6x3 (0.714)"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "hit": true
+    },
+    {
+      "id": "Q09",
+      "pregunta": "¿Puedo pagar en cuotas sin interés?",
+      "recuperadas": [
+        "preguntas_frecuentes.md§Medios de pago (0.702)",
+        "catalogo_productos.csv§TH-AUD1 (0.636)",
+        "catalogo_productos.csv§TH-RF340 (0.635)",
+        "catalogo_productos.csv§TH-MW25 (0.633)"
+      ],
+      "precision": 0.25,
+      "recall": 1.0,
+      "hit": true
+    },
+    {
+      "id": "Q10",
+      "pregunta": "¿Puedo cambiar la boleta por factura después de comprar?",
+      "recuperadas": [
+        "preguntas_frecuentes.md§Boleta y factura (0.775)",
+        "politica_garantias.md§1. Garantía legal (6 meses) (0.668)",
+        "preguntas_frecuentes.md§Cambio de dirección de despacho (0.641)",
+        "politica_garantias.md§5. Devolución por arrepentimiento (compras online) (0.633)"
+      ],
+      "precision": 0.5,
+      "recall": 1.0,
+      "hit": true
+    },
+    {
+      "id": "Q11",
+      "pregunta": "¿Cuál es el precio del refrigerador No Frost de 340 litros?",
+      "recuperadas": [
+        "catalogo_productos.csv§TH-RF340 (0.802)",
+        "catalogo_productos.csv§TH-MW25 (0.638)",
+        "catalogo_productos.csv§TH-LV12 (0.638)",
+        "catalogo_productos.csv§TH-AUD1 (0.634)"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "hit": true
+    },
+    {
+      "id": "Q12",
+      "pregunta": "¿Hay stock de la lavadora de carga frontal de 12 kg?",
+      "recuperadas": [
+        "catalogo_productos.csv§TH-LV12 (0.792)",
+        "catalogo_productos.csv§TH-AC12 (0.673)",
+        "catalogo_productos.csv§TH-RF340 (0.661)",
+        "catalogo_productos.csv§TH-MW25 (0.643)"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "hit": true
+    },
+    {
+      "id": "Q13",
+      "pregunta": "¿Cuánto cuesta el retiro si devuelvo un producto por arrepentimiento?",
+      "recuperadas": [
+        "politica_garantias.md§5. Devolución por arrepentimiento (compras online) (0.771)",
+        "politica_despachos.md§3. Costos (0.69)",
+        "politica_despachos.md§6. Retrasos (0.676)",
+        "politica_garantias.md§4. Procedimiento de postventa (0.673)"
+      ],
+      "precision": 0.5,
+      "recall": 1.0,
+      "hit": true
+    },
+    {
+      "id": "Q14",
+      "pregunta": "Mi televisor llegó dañado por el transporte, ¿qué hago?",
+      "recuperadas": [
+        "politica_despachos.md§5. Incidencias (0.708)",
+        "politica_garantias.md§4. Procedimiento de postventa (0.684)",
+        "politica_garantias.md§1. Garantía legal (6 meses) (0.66)",
+        "catalogo_productos.csv§TH-TV55 (0.638)"
+      ],
+      "precision": 0.25,
+      "recall": 1.0,
+      "hit": true
+    },
+    {
+      "id": "Q15",
+      "pregunta": "¿El courier es responsable si el producto llega roto o lo es la tienda?",
+      "recuperadas": [
+        "sernac_guia_compras_online.md§Productos dañados en el traslado (0.767)",
+        "ley_19496_extracto.md§Garantía legal (artículos 20 y 21) (0.652)",
+        "sernac_guia_compras_online.md§Plazos de despacho (0.646)",
+        "ley_19496_extracto.md§Derecho a retracto en compras a distancia (artículo 3 bis) (0.645)"
+      ],
+      "precision": 0.5,
+      "recall": 1.0,
+      "hit": true
+    },
+    {
+      "id": "Q16",
+      "pregunta": "¿Dónde está la tienda física y en qué horario atiende?",
+      "recuperadas": [
+        "preguntas_frecuentes.md§Tienda física (0.753)",
+        "preguntas_frecuentes.md§Horario de atención humana (0.688)",
+        "politica_despachos.md§3. Costos (0.639)",
+        "catalogo_productos.csv§TH-AUD1 (0.625)"
+      ],
+      "precision": 0.5,
+      "recall": 1.0,
+      "hit": true
+    },
+    {
+      "id": "Q17",
+      "pregunta": "¿Cuánto demora el reembolso de mi dinero?",
+      "recuperadas": [
+        "politica_garantias.md§6. Reembolsos (0.725)",
+        "politica_despachos.md§6. Retrasos (0.676)",
+        "politica_garantias.md§4. Procedimiento de postventa (0.657)",
+        "politica_despachos.md§2. Plazos estimados (días hábiles desde la confirmación del pago) (0.65)"
+      ],
+      "precision": 0.5,
+      "recall": 1.0,
+      "hit": true
+    },
+    {
+      "id": "Q18",
+      "pregunta": "¿Puedo cambiar la dirección de despacho de mi pedido?",
+      "recuperadas": [
+        "preguntas_frecuentes.md§Cambio de dirección de despacho (0.784)",
+        "politica_despachos.md§3. Costos (0.655)",
+        "politica_despachos.md§4. Estados de un pedido (0.653)",
+        "politica_despachos.md§1. Cobertura (0.649)"
+      ],
+      "precision": 0.25,
+      "recall": 1.0,
+      "hit": true
+    }
+  ]
+}

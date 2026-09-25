@@ -1,0 +1,6 @@
+id_pedido,fecha_compra,estado,region,sku,courier,n_seguimiento,fecha_estimada_entrega
+TH-10231,2026-09-15,ENTREGADO,Metropolitana,TH-TV55,Chilexpress,CX88121,2026-09-17
+TH-10245,2026-09-19,DESPACHADO,Valparaiso,TH-NB14,Starken,ST55410,2026-09-25
+TH-10252,2026-09-21,EN_PREPARACION,Biobio,TH-RF340,,,2026-09-30
+TH-10260,2026-09-22,INCIDENCIA,Metropolitana,TH-AUD1,Chilexpress,CX88990,2026-09-24
+TH-10267,2026-09-23,PAGADO,Magallanes,TH-MW25,,,2026-10-09

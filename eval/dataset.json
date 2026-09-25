@@ -1,0 +1,20 @@
+[
+  {"id": "Q01", "pregunta": "¿Cuántos meses de garantía legal tiene un producto nuevo?", "coleccion": "internos", "fuentes_relevantes": ["politica_garantias.md"]},
+  {"id": "Q02", "pregunta": "Mi lavadora falló, ¿puedo pedir la devolución del dinero en vez de la reparación?", "coleccion": "externos", "fuentes_relevantes": ["ley_19496_extracto.md", "sernac_guia_compras_online.md"]},
+  {"id": "Q03", "pregunta": "¿Cuántos días tengo para devolver una compra online por arrepentimiento?", "coleccion": "internos", "fuentes_relevantes": ["politica_garantias.md"]},
+  {"id": "Q04", "pregunta": "¿Qué dice la ley sobre el derecho a retracto en compras por internet?", "coleccion": "externos", "fuentes_relevantes": ["ley_19496_extracto.md"]},
+  {"id": "Q05", "pregunta": "¿Cuánto demora el despacho a Magallanes?", "coleccion": "internos", "fuentes_relevantes": ["politica_despachos.md"]},
+  {"id": "Q06", "pregunta": "¿El despacho es gratis en la Región Metropolitana?", "coleccion": "internos", "fuentes_relevantes": ["politica_despachos.md"]},
+  {"id": "Q07", "pregunta": "¿Qué pasa si mi pedido se retrasa más del plazo informado?", "coleccion": "internos", "fuentes_relevantes": ["politica_despachos.md"]},
+  {"id": "Q08", "pregunta": "El proveedor no cumplió el plazo de entrega, ¿qué derechos tengo según SERNAC?", "coleccion": "externos", "fuentes_relevantes": ["sernac_guia_compras_online.md", "ley_19496_extracto.md"]},
+  {"id": "Q09", "pregunta": "¿Puedo pagar en cuotas sin interés?", "coleccion": "internos", "fuentes_relevantes": ["preguntas_frecuentes.md"]},
+  {"id": "Q10", "pregunta": "¿Puedo cambiar la boleta por factura después de comprar?", "coleccion": "internos", "fuentes_relevantes": ["preguntas_frecuentes.md"]},
+  {"id": "Q11", "pregunta": "¿Cuál es el precio del refrigerador No Frost de 340 litros?", "coleccion": "internos", "fuentes_relevantes": ["catalogo_productos.csv"]},
+  {"id": "Q12", "pregunta": "¿Hay stock de la lavadora de carga frontal de 12 kg?", "coleccion": "internos", "fuentes_relevantes": ["catalogo_productos.csv"]},
+  {"id": "Q13", "pregunta": "¿Cuánto cuesta el retiro si devuelvo un producto por arrepentimiento?", "coleccion": "internos", "fuentes_relevantes": ["politica_garantias.md"]},
+  {"id": "Q14", "pregunta": "Mi televisor llegó dañado por el transporte, ¿qué hago?", "coleccion": "internos", "fuentes_relevantes": ["politica_despachos.md"]},
+  {"id": "Q15", "pregunta": "¿El courier es responsable si el producto llega roto o lo es la tienda?", "coleccion": "externos", "fuentes_relevantes": ["sernac_guia_compras_online.md"]},
+  {"id": "Q16", "pregunta": "¿Dónde está la tienda física y en qué horario atiende?", "coleccion": "internos", "fuentes_relevantes": ["preguntas_frecuentes.md"]},
+  {"id": "Q17", "pregunta": "¿Cuánto demora el reembolso de mi dinero?", "coleccion": "internos", "fuentes_relevantes": ["politica_garantias.md"]},
+  {"id": "Q18", "pregunta": "¿Puedo cambiar la dirección de despacho de mi pedido?", "coleccion": "internos", "fuentes_relevantes": ["preguntas_frecuentes.md"]}
+]

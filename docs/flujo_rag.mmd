@@ -1,0 +1,19 @@
+sequenceDiagram
+    autonumber
+    actor C as Cliente
+    participant G as Guardrails
+    participant A as Agente
+    participant L as Gemini
+    participant R as Retriever
+    participant V as Chroma (internos / externos)
+    C->>G: "Mi lavadora falló a los 3 meses, ¿me devuelven la plata?"
+    G->>A: consulta sin datos personales
+    A->>L: prompt de sistema + few-shot + memoria + consulta
+    L-->>A: tool_calls: buscar_politicas_internas, buscar_normativa_consumidor
+    A->>R: embedding de la consulta
+    R->>V: similitud coseno, top-k = 4
+    V-->>R: fragmentos + score
+    R-->>A: fragmentos con score ≥ umbral, con fuente y sección
+    A->>L: ToolMessage con el contexto recuperado
+    L-->>A: respuesta basada en el contexto + "Fuentes:"
+    A-->>C: "Tienes garantía legal de 6 meses: eliges cambio, reparación o devolución..."

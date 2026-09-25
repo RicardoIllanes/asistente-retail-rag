@@ -1,0 +1,33 @@
+flowchart LR
+    U([Cliente<br/>web / app]) -->|consulta| G[Guardrails<br/>enmascarar PII<br/>RUT · email · tarjeta]
+    G --> A{{Agente Tecno<br/>orquestador tool-calling}}
+    M[(Memoria<br/>ventana 6 turnos<br/>+ hechos clave)] <-->|historial| A
+    P[/Prompt de sistema<br/>rol · reglas · few-shot<br/>formato + citas/] --> A
+    A <-->|mensajes + herramientas| L[LLM Gemini 3.8 Flash<br/>temperatura 0.2]
+    A -->|tool call| T1[buscar_politicas_internas]
+    A -->|tool call| T2[buscar_catalogo]
+    A -->|tool call| T3[buscar_normativa_consumidor]
+    A -->|tool call| T4[consultar_pedido]
+    subgraph RAG[Pipeline RAG]
+        direction TB
+        R[Retriever<br/>similitud coseno · top-k=4<br/>umbral de score] 
+        VI[(Chroma<br/>colección internos)]
+        VE[(Chroma<br/>colección externos)]
+        R --> VI
+        R --> VE
+    end
+    T1 --> R
+    T2 --> R
+    T3 --> R
+    T4 --> DB[(pedidos.csv<br/>sistema de pedidos)]
+    subgraph ING[Ingesta offline]
+        direction TB
+        FI[Fuentes internas<br/>políticas · FAQ · catálogo] --> CH[Chunking<br/>por sección + 700/120]
+        FE[Fuentes externas<br/>Ley 19.496 · SERNAC] --> CH
+        CH --> EM[Embeddings<br/>gemini-embedding-001]
+    end
+    EM --> VI
+    EM --> VE
+    A -->|respuesta + Fuentes: archivo §sección| U
+    A -.->|traza de fuentes y scores| EV[Evaluación<br/>hit rate · precision · recall<br/>fidelidad LLM-judge]
+    A -->|INCIDENCIA / sin resultados| H([Ejecutivo humano])
